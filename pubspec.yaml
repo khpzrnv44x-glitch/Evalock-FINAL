@@ -1,0 +1,43 @@
+name: evalock
+description: "A new Flutter project."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  url_launcher: ^6.1.14
+  shared_preferences: ^2.2.0
+  sqflite: ^2.3.0
+  path: ^1.9.0
+  image_picker: ^1.2.1
+  pdf: ^3.10.0
+  printing: ^5.11.0
+  file_picker: ^8.0.0
+  onesignal_flutter: ^5.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  # Lints goes HERE, indented under dev_dependencies
+  flutter_lints: ^6.0.0
+  # The icon package goes HERE, indented under dev_dependencies
+  flutter_launcher_icons: ^0.13.1
+
+# This configuration block stays at the ROOT level (no spaces at start)
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/app_icon.png"
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
